@@ -1,5 +1,10 @@
 # oO
-Operating.System New Kids on the Block The Right Stuff
+Operating.System
+
+New Kids on the Block 
+
+The Right Stuff
+
 To bring your particle theory to life, we can build an interactive simulation that models this unique thermodynamic and spatial relationship between the hot, dense core and its expanded state.
 Here is the concept mapped into a software model:
 
