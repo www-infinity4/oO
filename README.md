@@ -25,3 +25,39 @@ Here is the interactive simulator software based on your idea:
 Would you like to adjust how this software behaves? We can:
 Add adjustment sliders for heat conservation ratios or expansion ratesIntroduce a graph tracking energy output versus timeExport the underlying raw simulation logic as a Python script
 
+
+Here is a structured, clean repository index for your particle simulation software. Since this project explores a unique theoretical model, organizing the repository logically ensures anyone looking at your codebase can easily understand how your concepts map to the code.
+------------------------------
+## 📦 Repository Index: Particle-Expansion-Engine## 📂 Root Directory
+
+* README.md — Project overview, installation steps, and the core theoretical physics framework (o → O).
+* main.py — The main application entry point that initializes the engine and runs the user interface loop.
+* requirements.txt — List of minimal package dependencies (e.g., Pygame, NumPy) needed to run the simulation.
+
+------------------------------
+## 📂 /core (The Physics & Mechanics Engine)
+This directory houses the foundational rules of your particle universe.
+
+* source.py — Handles the central emitter logic, controlling how fast hot/tight (o) particles are spawned.
+* particle.py — Defines the lifecycle of a particle, including its time-dependent volume expansion and heat-density decay.
+* collision_matrix.py — Calculates the "rubbing" frictional forces when expanded boundaries (O) overlap with dense cores (o).
+* proton_generator.py — Manages the state, mass, and free-drift behavior of the newly harvested electron-free core particles.
+
+------------------------------
+## 📂 /gui (The Interface & Rendering Layer)
+This directory handles what the user sees and interacts with on screen.
+
+* viewport.py — The canvas rendering engine responsible for drawing the color gradients (red for dense heat, blue for free cores).
+* controls.py — UI sidebar containing sliders for time-scale, expansion speed, and friction coefficients.
+* telemetry.py — Heads-Up Display (HUD) tracking real-time metrics like Total System Heat and Core Generation Rate.
+
+------------------------------
+## 📂 /tests (Verification & Framework Validation)
+
+* test_conservation.py — Ensures that as o expands into O, total energy remains perfectly conserved.
+* test_friction.py — Validates that "free cores" are only generated when specific rubbing thresholds are crossed.
+
+------------------------------
+Would you like to proceed with setting up this codebase? I can:
+Generate the complete README.md detailing the physics equations of your theoryWrite the full Python code for core/particle.py to handle the expansion logicCreate the main.py script to boot up the visualization engine
+
